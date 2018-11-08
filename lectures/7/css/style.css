@@ -1,6 +1,15 @@
 #main {
-    /* add CSS here */
+    width: 400px;
+    margin: auto;
+    padding: 20px 400px 10px;
+    border-radius: 10px
 }
 .pet {
-    /* add CSS here */
+
+    border: dashed red;
+    cursor: pointer;
+    border-color: #fa0292;
+    box-shadow: black;
+    -webkit-box-shadow: 20px 10px 5px 0px rgba(0,0,0,0.75);
+
 }
