@@ -3,12 +3,17 @@ require_once "db_connection.php";
 
 function getCats(){
     global $con;
+    if(isset($_GET['cat'])&& isset($_GET[''])){
+        $pro_cat_id = $_GET['cat'];
+        $getProQuery = "select * from products where pro_cat = '$pro_cat_id'";
+
+    }
     $getCatsQuery = "select * from categories";
     $getCatsResult = mysqli_query($con,$getCatsQuery);
     while($row = mysqli_fetch_assoc($getCatsResult)){
         $cat_id = $row['cat_id'];
         $cat_title = $row['cat_title'];
-        echo "<li><a class='nav-link'  href='#'>$cat_title</a></li>";
+        echo "<li><a class='nav-link'  href='index.php?cat= $cat_id '>$cat_title</a></li>";
     }
 }
 function getBrands(){

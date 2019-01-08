@@ -79,15 +79,6 @@ require "server/functions.php";
                     <?php getBrands(); ?>
                 </ul>
             </li>
-            <li class="active">
-                <a href="#page1Submenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle nav-link">
-                    <i class="fas fa-plus"></i>
-                    Products
-                </a>
-                <ul class="collapse show list-unstyled" id="page1Submenu">
-                    <?php getProducts(); ?>
-                </ul>
-            </li>
             <li>
                 <a class="nav-link"  href="#">
                     <i class="fas fa-question"></i>
@@ -105,19 +96,19 @@ require "server/functions.php";
     <article id="content" class="container-fluid bg-white">
 
         <div class="row">
-                <?php getPro(); ?>
+            <?php getPro(); ?>
         </div>
     </article>
 
 
 </div>
 <footer class="container-fluid">
-        <div class="row">
-            <div class="col text-center">
-               &copy; 2019 by Muhammad Ali Makhdoom
-            </div>
+    <div class="row">
+        <div class="col text-center">
+            &copy; 2019 by Muhammad Ali Makhdoom
         </div>
-    </footer>
+    </div>
+</footer>
 <script src="js/jquery-3.3.1.js"></script>
 <script src="js/bootstrap.bundle.js"></script>
 </body>
