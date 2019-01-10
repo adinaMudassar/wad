@@ -10,7 +10,7 @@ var questions = [
     question : "Which of the following can't be done with client-side JavaScript?",
     choices : [ "Validating a form",
         "Sending a form's contents by email",
-        "Storing the form's contents to a database file on the server",
+        "Storing the forms contents to a database file on the server",
         "None of the above"],
     correctAnswer : 2
 },{
@@ -33,7 +33,7 @@ function displayNext() {
         if(document.querySelector('input[name="dq"]:checked') !== null)
             selectedValue = document.querySelector('input[name="dq"]:checked').value;
         if (selectedValue == null) {
-            document.getElementById("quiz-message").innerText = "Please selected an answer"
+            document.getElementById("quiz-message").innerText = "Please selected an answer";
             document.getElementById("quiz-message").style.display = 'block';
         } else{
             document.getElementById("quiz-message").style.display = 'none';
