@@ -1,8 +1,10 @@
-/*const key = 'abc123';
+/*
+const key = 'abc123';
 let points = 50;
 let winner = false;
 
-let points = 60;*/
+let points = 60;
+*/
 
 
 /*

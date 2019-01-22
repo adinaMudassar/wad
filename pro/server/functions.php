@@ -3,12 +3,17 @@ require_once "db_connection.php";
 
 function getCats(){
     global $con;
+    if(isset($_GET['cat'])&& isset($_GET[''])){
+        $pro_cat_id = $_GET['cat'];
+        $getProQuery = "select * from products where pro_cat = '$pro_cat_id'";
+
+    }
     $getCatsQuery = "select * from categories";
     $getCatsResult = mysqli_query($con,$getCatsQuery);
     while($row = mysqli_fetch_assoc($getCatsResult)){
         $cat_id = $row['cat_id'];
         $cat_title = $row['cat_title'];
-        echo "<li><a class='nav-link'  href='index.php?cat=$cat_id'>$cat_title</a></li>";
+        echo "<li><a class='nav-link'  href='index.php?cat= $cat_id '>$cat_title</a></li>";
     }
 }
 function getBrands(){
@@ -18,33 +23,14 @@ function getBrands(){
     while($row = mysqli_fetch_assoc($getBrandsResult)){
         $brand_id = $row['brand_id'];
         $brand_title = $row['brand_title'];
-        echo "<li><a class='nav-link'  href='index.php?brand=$brand_id'>$brand_title</a></li>";
+        echo "<li><a class='nav-link'  href='#'>$brand_title</a></li>";
     }
 }
 
 function getPro(){
     global $con;
-    $getProQuery = '';
-    if(!isset($_GET['cat']) && !isset($_GET['brand']) && !isset($_GET['search'])){
-        $getProQuery = "select * from products order by RAND();";
-    }
-    else if(isset($_GET['cat'])){
-        $pro_cat_id = $_GET['cat'];
-        $getProQuery = "select * from products where pro_cat = '$pro_cat_id'";
-    }
-    else if(isset($_GET['brand'])){
-        $pro_brand_id = $_GET['brand'];
-        $getProQuery = "select * from products where pro_brand = '$pro_brand_id'";
-    }
-    else if(isset($_GET['search'])){
-        $user_query = $_GET['search'];
-        $getProQuery = "select * from products where pro_keywords like '%$user_query%'";
-    }
+    $getProQuery = "select * from products order by RAND();";
     $getProResult = mysqli_query($con,$getProQuery);
-    $count_pro = mysqli_num_rows($getProResult);
-    if($count_pro==0){
-        echo "<h4 class='alert-warning align-center my-2 p-2'> No Product found in selected criteria </h4>";
-    }
     while($row = mysqli_fetch_assoc($getProResult)){
         $pro_id = $row['pro_id'];
         $pro_title = $row['pro_title'];
