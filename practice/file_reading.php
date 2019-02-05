@@ -1,4 +1,3 @@
-
 <?php
 require "db_connection.php";
 $fp = @fopen("data.txt", 'r');

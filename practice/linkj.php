@@ -60,12 +60,6 @@ require "func.php";
 <footer class="container-fluid">
 </footer>
 <script src="jquery-3.3.1.js"></script>
-
-
-
-
-
-
 <script src="bootstrap.bundle.js"></script>
 </body>
 </html>
