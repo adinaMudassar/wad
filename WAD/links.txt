@@ -1,11 +1,27 @@
 regex:
 https://www.tutorialrepublic.com/php-tutorial/php-regular-expressions.php?fbclid=IwAR3ipVXx8m7fLv_nUbiBaCFhUKsIIDnK-et2N5CruQUiXQsTBZwMPZxcJYk
 https://regex101.com/?fbclid=IwAR1tP9iaP2o40xHAAK3gmGkVv2Gk5j9xn7rWUesx7pLSEbXOInMwUcWw_p0
+https://regexone.com/references/php?fbclid=IwAR1541iCf9lN-l5hZ4jcVfkzzoyJzAzoV8WDN_0JK5xyxZqnSpucTqWgkyU
+https://www.regular-expressions.info/wordboundaries.html
 
+agax:
+https://www.codexpedia.com/php/ajax-with-javascript-and-php-example/?fbclid=IwAR246z-WOacDHYG_R5bVNPUj68DHZk5zPUYqAUeDK6OcXaU5SABjkA3O388
+http://itools.codexpedia.com/demo/javascript-ajax-get-factors/?fbclid=IwAR2bnfnVs-NqcE3aPHmFLvgZe35HhCPHzT2pcZ28etg0CRMMBcdV-YR3RAU
+https://www.w3schools.com/js/js_ajax_intro.asp
 
 php tester online:
 http://phptester.net/
 
+jquery:
+https://learn.jquery.com/about-jquery/how-jquery-works/
+https://www.w3schools.com/jquery/default.asp
+
+cookies:
+https://www.tutorialrepublic.com/php-tutorial/php-cookies.php
+
+php file handling:
+https://www.w3schools.com/PHP/php_file_open.asp
+https://www.w3schools.com/PHP/php_file_create.asp
 
 google drive link (sir talha):
 https://drive.google.com/drive/u/1/folders/1MKmgsBJYfnD48VSmTuBFoX8gQh7WuJ6s?fbclid=IwAR2toGJgIhpi2mOqbTemqaGp0mF1F6IV6bffgkdNaYHEdprVLSJkTHrZ1X0
@@ -13,6 +29,9 @@ https://drive.google.com/drive/u/1/folders/1MKmgsBJYfnD48VSmTuBFoX8gQh7WuJ6s?fbc
 
 github link (sir ali makhdum):
 https://github.com/14muhammad/wad?fbclid=IwAR2Z5gzrSG_a3SAI54ZeUYw75NGKELD3AFax5n9tBwaQoPI9W6IG9p-wrJU
+
+github link (pak-flix)
+https://github.com/Unbreenzafar/Pakflix
 
 mock wali website:
 https://websiteseochecker.com/extract-url-to-domain/?fbclid=IwAR3ToDnX4bOxHKKJRDV4Vg8CtbeZzWf1i7A1oqLFLAb_TE2FjhvvU6zb2es#arearesult
