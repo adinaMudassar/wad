@@ -1,0 +1,32 @@
+.color1 {
+    background-color: #ff4500;
+}
+
+.color2 {
+    background-color: #353839;
+}
+
+.color4 {
+    background-color: #5f6869;
+}
+
+.color5 {
+    color: #8c9697;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.color3 {
+    color: #6d7879;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.borderr {
+    border: solid 1px white;
+}
+
+.buttonStyle {
+    width: 100%;
+    margin-top: 15px;
+}

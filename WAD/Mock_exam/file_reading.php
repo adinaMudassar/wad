@@ -1,3 +1,4 @@
+
 <?php
 require "db_connection.php";
 $fp = @fopen("data.txt", 'r');
@@ -10,17 +11,15 @@ if ($fp) {
     for($i =0 ; $i<$length ; $i++)
     {
         preg_match_all($pattern, $array[$i], $matches, PREG_PATTERN_ORDER);
-
+       // var_dump($matches);
         $tmpArr = array();
         foreach ($matches as $sub) {
-
             $tmpArr[] = implode($sub);
         }
         $result = implode( ' ',$tmpArr);
-        list($part1, $part2) = explode(' ', $result);
-         var_dump($part1);
-       // var_dump($part1);
-        $insert_match = "insert into matches (p_name) VALUES ('{$part1}');";
+         echo $result;
+
+        $insert_match = "insert into matches (p_name) VALUES ('{$result}');";
         $insert_match = mysqli_query($con, $insert_match);
     }
 

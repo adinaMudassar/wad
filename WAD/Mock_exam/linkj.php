@@ -5,7 +5,7 @@ require "func.php";
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>practice mock</title>
+    <title>Tech Box</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">
@@ -46,7 +46,8 @@ require "func.php";
         <ul class="list-unstyled components">
             <li class="active">
                 <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle nav-link">
-                    Info
+
+                    info
                 </a>
                 <ul class="collapse show list-unstyled" id="pageSubmenu">
                     <?php gets(); ?>
@@ -59,6 +60,12 @@ require "func.php";
 <footer class="container-fluid">
 </footer>
 <script src="jquery-3.3.1.js"></script>
+
+
+
+
+
+
 <script src="bootstrap.bundle.js"></script>
 </body>
 </html>
