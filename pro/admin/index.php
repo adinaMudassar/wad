@@ -126,7 +126,7 @@ if(!isset($_SESSION['user_email'])){
                 include('del_brand.php');
             }
             else if(isset($_GET['view_customers'])){
-                include ('view_customers.php');
+                include ('view_customer.php');
             }
             else if(isset($_GET['del_customer'])){
                 include ('del_customer.php');

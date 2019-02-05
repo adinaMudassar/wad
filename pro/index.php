@@ -96,19 +96,19 @@ require "server/functions.php";
     <article id="content" class="container-fluid bg-white">
 
         <div class="row">
-                <?php getPro(); ?>
+            <?php getPro(); ?>
         </div>
     </article>
 
 
 </div>
 <footer class="container-fluid">
-        <div class="row">
-            <div class="col text-center">
-               &copy; 2019 by Muhammad Ali Makhdoom
-            </div>
+    <div class="row">
+        <div class="col text-center">
+            &copy; 2019 by Muhammad Ali Makhdoom
         </div>
-    </footer>
+    </div>
+</footer>
 <script src="js/jquery-3.3.1.js"></script>
 <script src="js/bootstrap.bundle.js"></script>
 </body>
